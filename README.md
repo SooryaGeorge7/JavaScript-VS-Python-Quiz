@@ -37,3 +37,17 @@
 
 ---
 
+## User Experience (UX)
+
+### User Stories
+
+#### First Time Visitor Goals
+
+* I want to take part in this quiz to help validate my knowledge of the difference between Javascript and Python.
+* I want to be able easily understand the rules and how the game works. 
+* I want the game to be responsive to my device.
+
+#### Returning Visitor Goals
+
+* I want to be able to see the scoreboard to see what position i am.
+* I want to be able to play again if i wanted to.

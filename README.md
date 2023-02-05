@@ -81,9 +81,36 @@ I got the image from [Pexels](https://www.pexels.com/) website but have also men
 
 ### Wireframes
 
+I created wireframes using [Balsamiq](https://balsamiq.com/) for mobile, tablet and desktops screens.
+
+#### Home page 
+
+![Home page](documentation/wireframes/wireframe-home-page.png)
+
+#### Game page
+
+![Game page](documentation/wireframes/wireframe-game-page.png)
+
+#### High scores page
+
+![Scoreboard page](documentation/wireframes/wireframe-scoreboard-page.png)
+
+### Features
+
 ### Accessibility
 
+I ensured to provide sufficient accessibility throughout the making of this game site by the following ways:
+
+* I used semantic HTML.
+* Ensures that there is sufficient colour contrast throughout the game site.
+* Ensured that user knows when their answer is correct or wrong by using red and green shade to highlight answer.
+* Ensure that the user can see the score while playing (this would also help users that maybe color blind).
+* Allowed users to see their score in scoreboard to compare.
+
 ## Technologies Used
+
+Languages Used 
+HTML,CSS,Javascript
 
 ## Deployment & Local Development
 

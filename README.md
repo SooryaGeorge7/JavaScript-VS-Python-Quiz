@@ -132,8 +132,34 @@ HTML,CSS,Javascript
 * [Google developer tools](https://developer.chrome.com/docs/devtools/) - Used to test website throughout the process of developing it.
 * [Am i responsive](http://ami.responsivedesign.is/) -  To display the quiz game site on a range of devices.
 
+- - - 
+
 ## Deployment & Local Development
+
+### Deployment
+### Local Development
+#### How to Fork
+#### How to CLone
+
+- - - 
 
 ## Testing
 
+Please go to [TESTING.md](TESTING.md) file to view all testings done for this quiz game site.
+
+### Solved Bugs
+### Known Bugs
+
+- - -
+
 ## Credits
+
+### Code Used
+### Content
+All content used in website is written by me. I formulatted questions and answers from the code institute comparative programming languaging essentials in the LMS.
+
+### Media
+
+* [Background game image- from pexels website](https://www.pexels.com/photo/text-2061168/)
+
+### Acknowledgments

@@ -68,7 +68,16 @@ The colours below are used in the following instances:
 
 ### Typography
 
+I used Google Fonts to import the following fonts to use in my game site. 
+
+* [Noto Serif](https://fonts.google.com/noto/specimen/Noto+Serif?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=noto+serif&sort=popularity&noto.query=novecento) - Used for Game heading and Questions.
+* [Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=open+sans&sort=popularity&noto.query=novecento) - Used for all other texts in game.
+Noto Serif is a serifed typeface created by Google specially for users to consume written digital content. So, naturally it is legible on the screen despite its decorate swashes.
+I first got the heading font i wanted from Google fonts and i used [typ.io](https://typ.io/fonts/noto_serif) to get a font that it pairs well with .
 ### Imagery
+
+Since this quiz game is about programming , i wanted to use a background image that would allow the user to experience being in th "coding" world.
+I got the image from [Pexels](https://www.pexels.com/) website but have also mentioned this in [Credits](#credits).
 
 ### Wireframes
 

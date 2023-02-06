@@ -11,7 +11,8 @@
     box-sizing: border-box;
 }
 body {
-    background: url("../images/background-js-vs-p-quiz.webp") no-repeat center center /cover fixed;
+    background-image: url("../images/background-js-vs-p-quiz.webp") ;
+    background-size: cover;
     font-family: "Open Sans", sans-serif;
     color: #2B2B2B;
     
@@ -20,30 +21,33 @@ body {
 /* --------- Heading */
 
 .quiz-heading {
-    position:absolute;
-    left: 6rem;
+    
+    text-align: center;
     /* top: 1rem; */
-    margin: 0rem;
+    margin-top: 3rem;
     font-family: "noto serif",sans-serif;
     color: #faf9f6;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;
 }
 
-.logo-image {
-    position:absolute;
+/*.logo-image {
+    
     width: 6rem;
     left: 0.125rem;
-}
+}*/
 
 #logo-text {
-    position:absolute;
-    left:0.3rem;
+    
+    margin: 3.5rem;
     top: 5rem;
-    font-size: 1.5rem;
+    /* text-align: center; */
+    border-radius: 0.5rem;
+    font-size: 1rem;
     color: #2B2B2B;
-    padding: 1rem ;
+    padding: 0.5rem;
     text-transform: uppercase;
-    text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;
+    text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
+    background-color: rgba(255,159,0, 0.7);
     font-weight: bold;
 }

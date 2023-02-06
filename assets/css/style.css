@@ -14,7 +14,7 @@ body {
     background: url("../images/background-js-vs-p-quiz.webp") no-repeat center center /cover fixed;
     font-family: "Open Sans", sans-serif;
     color: #2B2B2B;
-    text-align: center;
+    
 }
 
 /* --------- Heading */
@@ -37,5 +37,13 @@ body {
 }
 
 #logo-text {
-
+    position:absolute;
+    left:0.3rem;
+    top: 5rem;
+    font-size: 1.5rem;
+    color: #2B2B2B;
+    padding: 1rem ;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;
+    font-weight: bold;
 }

@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Open+Sans&display=swap');
 
 
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 body {
-    background-image: url("../images/background-js-vs-p-quiz.webp")
+    background: url("../images/background-js-vs-p-quiz.webp") no-repeat center center /cover fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #2B2B2B;
+    text-align: center;
+}
+
+/* --------- Heading */
+
+.quiz-heading {
+    position:absolute;
+    left: 6rem;
+    /* top: 1rem; */
+    margin: 0rem;
+    font-family: "noto serif",sans-serif;
+    color: #faf9f6;
+    font-size: 2.25rem;
+    text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;
+}
+
+.logo-image {
+    position:absolute;
+    width: 6rem;
+    left: 0.125rem;
+}
+
+#logo-text {
+
 }

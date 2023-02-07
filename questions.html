@@ -16,23 +16,28 @@
 
 <body>
     <div class="heading-area">
-        <a> 
-            
+        <a href="index.html">
+
             <h1 class="quiz-heading">
-                 JavaScript Vs Python
+                JavaScript Vs Python
             </h1>
             <span id="logo-text">Know the difference!</span>
         </a>
     </div>
 
     <div class="game-area">
-        <div class="username-div">
-            <label for="username">Enter Username</label><br>
-            <input type="text" id="username" required>
+        <div>
+            <p>Q NO: <span id="question-number">1</span></p>
+            <p>Time remaining: <br> <span id="timer">3:00</span> </p>
+            <p>Score: <span id="your-score">0</span></p>
+            <p>Q remaining: <br><span id="question-remaining">30</span></p>
         </div>
-
-        <div class="play">
-            <a href="questions.html" class="button">Play Quiz!   <i class="fa-solid fa-circle-play"></i></a>
+        <div>
+            <h2 id="questions"></h2>
+            <div>
+                <button>Python</button>
+                <button>Java Script</button>
+            </div>
         </div>
 
     </div>

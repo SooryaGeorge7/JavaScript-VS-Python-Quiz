@@ -124,3 +124,16 @@ body {
     color: #FF9F00;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
+.answer-btn {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.answer-btn button {
+    margin:0.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}

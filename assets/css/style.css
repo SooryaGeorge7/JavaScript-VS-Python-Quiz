@@ -57,8 +57,8 @@ body {
 }
 
 .game-area {
-    background-color: rgba(193,193,193, 0.7);
-    background-color: rgba(193,193,193, 0.7);
+    
+    background-color: rgba(193,193,193, 0.9);
     margin: 3rem 2rem;
     text-align: center;
     padding: 2rem;
@@ -107,4 +107,20 @@ body {
 }
 #scores:hover {
     text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;   
+}
+.score-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.score-container p {
+    font-weight: bold;
+}
+
+#questions {
+    font-family: "noto serif",sans-serif;
+    color: #FF9F00;
+    text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }

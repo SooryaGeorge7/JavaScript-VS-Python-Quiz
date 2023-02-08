@@ -52,12 +52,14 @@ function checkAnswer(event) {
     answerSelected = event.target;
     let selected = answerSelected.innerText;
     let rightAnswer = questions[currentIndex].correct;
-    if (selected === rightAnswer) {
-        selected.style.backgroundColor = "#226F54";
+    
+    if (selected === rightAnswer){
+        answerSelected.style.background= "#226F54";
     } else {
-        selected.style.backgroundColor = "#E04C4C";
+        answerSelected.style.background= "#E04C4C";
     }
-
+     
+    
 
 }
 

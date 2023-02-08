@@ -79,31 +79,7 @@ const questions = [
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
-    {
-        question:
-        choice: ["PYTHON", "JAVASCRIPT"]
-        correct:
-    },
-    {
-        question:
-        choice: ["PYTHON", "JAVASCRIPT"]
-        correct:
-    },
-    {
-        question:
-        choice: ["PYTHON", "JAVASCRIPT"]
-        correct:
-    },
-    {
-        question:
-        choice: ["PYTHON", "JAVASCRIPT"]
-        correct:
-    },
-    {
-        question:
-        choice: ["PYTHON", "JAVASCRIPT"]
-        correct:
-    }
+    
     
 ];
 

@@ -56,7 +56,7 @@ body {
     font-weight: bold;
 }
 
-.game-area {
+#home-page, #game-page, #scoreboard-area {
     
     background-color: rgba(193,193,193, 0.9);
     margin: 3rem 2rem;
@@ -92,7 +92,11 @@ body {
     padding:0.5rem;
 }
 
-.scoreboard-area {
+.display{
+    display: none;
+}
+
+#scoreboard-area {
     text-align: center;
     font-size: 1.5rem;
     

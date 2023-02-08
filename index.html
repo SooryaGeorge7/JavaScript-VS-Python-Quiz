@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="heading-area">
+    <header id="heading-area">
         <a> 
             
             <h1 class="quiz-heading">
@@ -23,9 +23,9 @@
             </h1>
             <span id="logo-text">Know the difference!</span>
         </a>
-    </div>
+    </header>
 
-    <div class="game-area">
+    <section id="home-page">
         <div class="username-div">
             <label for="username">Enter Username</label><br>
             <input type="text" id="username" required>
@@ -35,12 +35,29 @@
             <a href="questions.html" class="button">Play Quiz!   <i class="fa-solid fa-circle-play"></i></a>
         </div>
 
-    </div>
+    </section>
 
-    <div class="scoreboard-area">
+    <section id="game-page" class="display">
+        <div class="score-container">
+            <p>Q No.: <span id="question-number">1</span></p>
+            <p>Timer:<span id="timer">3:00</span> </p>
+            <p>Score: <span id="your-score">0</span></p>
+            <p>Q left: <span id="question-remaining">30</span></p>
+        </div>
+        <div class="choose-container">
+            <h2 id="questions"> A question</h2>
+            <div class="answer-btn">
+                <button>Python</button>
+                <button>Java Script</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="scoreboard-area" class="display">
         <a href="#" id="scores">Score Board</a>
 
-    </div>
+    </section>
+
     <script src="https://kit.fontawesome.com/a8dca34502.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>

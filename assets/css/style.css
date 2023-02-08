@@ -92,7 +92,7 @@ body {
     padding:0.5rem;
 }
 
-.display{
+#game-page, #scoreboard-area {
     display: none;
 }
 

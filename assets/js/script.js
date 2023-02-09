@@ -45,7 +45,11 @@ function displayQuestions(question) {
     questionArea.innerText = question.question;
     python.innerText = question.choice[0];
     javaScript.innerText = question.choice[1];
-
+    let elements = document.getElementsByClassName('answer'); 
+	for(let i = 0; i < elements.length; i++){
+		elements[i].style.backgroundColor = "#FAF9F6";
+	}
+    
 }
 
 function checkAnswer(event) {
@@ -55,15 +59,27 @@ function checkAnswer(event) {
     
     if (selected === rightAnswer){
         answerSelected.style.background= "#226F54";
+        
     } else {
         answerSelected.style.background= "#E04C4C";
     }
-     
-    
+    currentIndex++;
+    nextQuestion();
 
 }
 
 let ansButton = document.getElementsByClassName('answer');
 for (let i = 0; i < ansButton.length; i++) {
-    ansButton[i].addEventListener('click', checkAnswer);
+    ansButton[i].addEventListener('mousedown', checkAnswer);
+    ansButton[i].addEventListener('mouseup', changeColor);
+}
+
+
+function nextQuestion() {
+    if (currentIndex + 1 > questions.length) {
+        gameOver()
+    }else {
+        displayQuestions(questions[currentIndex]);
+        
+    }
 }

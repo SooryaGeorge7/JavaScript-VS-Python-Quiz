@@ -108,6 +108,11 @@ I created wireframes using [Balsamiq](https://balsamiq.com/) for mobile, tablet 
 
 ### Features
 
+### Future implimentation
+
+* I would like to create a scoreboard that can take in scores from all the users that have played the quiz so that the current user can view their score position and compare it to others. 
+* 
+
 ### Accessibility
 
 I ensured to provide sufficient accessibility throughout the making of this game site by the following ways:

@@ -68,6 +68,7 @@ function changeColor(event) {
     answerRelease = event.target;
     answerRelease.style.background = "#FAF9F6";
     currentIndex++;
+    questionsLeft.innerText= --qLeft;
     nextQuestion();
 }
 let ansButton = document.getElementsByClassName('answer');

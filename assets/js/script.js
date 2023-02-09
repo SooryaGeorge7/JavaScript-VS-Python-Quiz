@@ -45,10 +45,7 @@ function displayQuestions(question) {
     questionArea.innerText = question.question;
     python.innerText = question.choice[0];
     javaScript.innerText = question.choice[1];
-    let elements = document.getElementsByClassName('answer'); 
-	for(let i = 0; i < elements.length; i++){
-		elements[i].style.backgroundColor = "#FAF9F6";
-	}
+    
     
 }
 
@@ -67,7 +64,12 @@ function checkAnswer(event) {
     nextQuestion();
 
 }
-
+function changeColor(event) {
+    answerRelease = event.target;
+    answerRelease.style.background = "#FAF9F6";
+    currentIndex++;
+    nextQuestion();
+}
 let ansButton = document.getElementsByClassName('answer');
 for (let i = 0; i < ansButton.length; i++) {
     ansButton[i].addEventListener('mousedown', checkAnswer);

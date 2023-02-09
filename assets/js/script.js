@@ -56,6 +56,7 @@ function checkAnswer(event) {
     
     if (selected === rightAnswer){
         answerSelected.style.background= "#226F54";
+        score.innerText = ++userscore;
         
     } else {
         answerSelected.style.background= "#E04C4C";
@@ -69,6 +70,7 @@ function changeColor(event) {
     answerRelease.style.background = "#FAF9F6";
     currentIndex++;
     questionsLeft.innerText= --qLeft;
+    questionNumber.innerText = ++qNumber;
     nextQuestion();
 }
 let ansButton = document.getElementsByClassName('answer');

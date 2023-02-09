@@ -79,7 +79,76 @@ const questions = [
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
-    
+    {
+        question:"ternary conditional statement let var = condition ? trueResult:falseResult",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"JAVASCRIPT"
+    },
+    {
+        question:"in which programing language will incorrect indentation not allow the code to run:",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"PYTHON"
+    },
+    {
+        question:"“else if” conditional syntax is used in ",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"JAVASCRIPT"
+    },
+    {
+        question:"(Let i = 1; i <= 10; i++) is seen in ",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"JAVASCRIPT"
+    },
+    {
+        question:"The statement pass Is used to skip the current code block in",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"PYTHON"
+    },
+    {
+        question:"The dot notation is a method typically used to access an object’s properties in which language below:",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"JAVASCRIPT"
+    },
+    {
+        question:"in which language do you use keyword def to name a function",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"PYTHON"
+    },
+    {
+        question:"keywords let , var and const are used to define variables in",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"JAVASCRIPT"
+    },
+    {
+        question:"A multi line comment is wrapped in  “””   comment goes here “”” in",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"PYTHON"
+    },
+    {
+        question:"A docstring starts with forward slash(/) and two asterisks (**) in:",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"JAVASCRIPT"
+    },
+    {
+        question:"The built in function help() is used to access docstrings on the command line in",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"PYTHON"
+    },
+    {
+        question:"document.getElementBy()",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"JAVASCRIPT"
+    },
+    {
+        question:"print()",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"PYTHON"
+    },
+    {
+        question:"for i in [1, 2, 3]",
+        choice: ["PYTHON", "JAVASCRIPT"],
+        correct:"PYTHON"
+    },
     
 ];
 

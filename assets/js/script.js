@@ -39,6 +39,14 @@ function playGame() {
     questionNumber.innerText = qNumber;
     score.innerText = userscore;
     questionsLeft.innerText= qLeft;
+    
+}
+
+let secsLeft = 40;
+let count = setInterval(countDown,1000);
+
+function countDown() {
+    timer.innerText = --secsLeft;
 }
 
 function displayQuestions(question) {

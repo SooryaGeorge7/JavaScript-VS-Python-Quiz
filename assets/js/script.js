@@ -3,11 +3,11 @@ let userName = document.getElementById('username');
 let homePage = document.getElementById('home-page');
 let gamePage = document.getElementById('game-page');
 let validationMessage = document.getElementById('validation');
-let scorePage = document.getElementById('scoreboard-area');
+let gameoverPage = document.getElementById('gameover-area');
 let questionArea = document.getElementById('questions');
 let python = document.getElementById('python');
 let javaScript = document.getElementById('javascript');
-
+let noTime = document.getElementById('no-time-left');
 
 //username validation 
 let usernameLength = "Please enter a name longer than 2 charectors";
@@ -39,14 +39,19 @@ function playGame() {
     questionNumber.innerText = qNumber;
     score.innerText = userscore;
     questionsLeft.innerText= qLeft;
-    
+    setInterval(countDown,1000);
+    countDown();
 }
 
 let secsLeft = 40;
-let count = setInterval(countDown,1000);
 
+let noTimeleft = "Sorry, You've run out of time!";
 function countDown() {
     timer.innerText = --secsLeft;
+    if (secsLeft <= 0) {
+        gameOver();
+        noTime.innerHTML = noTimeleft;
+    }
 }
 
 function displayQuestions(question) {
@@ -95,4 +100,8 @@ function nextQuestion() {
         displayQuestions(questions[currentIndex]);
         
     }
+}
+function gameOver() {
+    gamePage.style.display = "none";
+    gameoverPage.style.display = "block";
 }

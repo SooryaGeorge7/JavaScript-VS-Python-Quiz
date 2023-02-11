@@ -30,6 +30,7 @@ function validateMessage() {
  let qNumber = 1;
  let qLeft = 10;
  let currentIndex = 0;
+ let counting;
 
 //play game
 function playGame() {
@@ -39,7 +40,7 @@ function playGame() {
     questionNumber.innerText = qNumber;
     score.innerText = userscore;
     questionsLeft.innerText= qLeft;
-    setInterval(countDown,1000);
+    counting = setInterval(countDown,1000);
     countDown();
 }
 
@@ -95,7 +96,8 @@ for (let i = 0; i < ansButton.length; i++) {
 
 function nextQuestion() {
     if (currentIndex + 1 > questions.length) {
-        gameOver()
+        gameOver();
+        clearInterval(counting);
     }else {
         displayQuestions(questions[currentIndex]);
         

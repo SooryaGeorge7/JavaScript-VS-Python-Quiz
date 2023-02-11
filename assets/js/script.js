@@ -75,8 +75,7 @@ function checkAnswer(event) {
     } else {
         answerSelected.style.background= "#E04C4C";
     }
-    currentIndex++;
-    nextQuestion();
+    
 
 }
 function changeColor(event) {

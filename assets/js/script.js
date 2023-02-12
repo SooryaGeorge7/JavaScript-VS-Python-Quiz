@@ -123,23 +123,24 @@ function gameOver() {
     gameoverPage.style.display = "block";
     showScore()
 }
+
 let performance = document.getElementById('performance');
-let maxScore = "Congraturlations! You really know your stuff!";
-let highScore = "Well done on a good score but there is still room for improvement";
-let doBetter = "You've just passed but you can definetly do better! ";
-let failed = "Oh no, someone needs to revise their notes!Try again? ";
+//let maxScore = `Congraturlations! You really know your stuff ${userName.value}!`;
+//let highScore = `Well done ${userName.value}! This is a good score but there is still room for improvement`;
+//let doBetter = `${userName.value}, You've just passed but you can definetly do better! `;
+//let failed = `Oh no, someone needs to revise their notes!Try again ${userName.value}? `;
 function showScore() {
     showScores.innerHTML = `Your Score: ${userscore}/10`;
     if (userscore == 10) {
-        performance.innerHTML = maxScore;
+        performance.innerHTML = `Congraturlations! You really know your stuff ${userName.value}!`;
 
     }else if (userscore >= 7){
-        performance.innerHTML = highScore;
+        performance.innerHTML = `Well done ${userName.value}! This is a good score but there is still room for improvement`;
 
     }else if (userscore < 7, userscore >= 5){
-        performance.innerHTML = doBetter;
+        performance.innerHTML = `${userName.value}, You've just passed but you can definetly do better! `;
     }
     else {
-        performance.innerHTML = failed;
+        performance.innerHTML = `Oh no, someone needs to revise their notes!Try again ${userName.value}? `;
     }
 }

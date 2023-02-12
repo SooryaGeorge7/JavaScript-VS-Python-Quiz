@@ -32,7 +32,7 @@ body {
     font-family: "noto serif",sans-serif;
     color: #faf9f6;
     font-size: 2.5rem;
-    text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;
+    text-shadow: 0 0 7px #FF9F00, 0 0 7px #FF9F00;
 }
 h2 {
     font-family: "noto serif",sans-serif;
@@ -89,8 +89,17 @@ h2 {
 #username {
     width: 9rem;
     height:2rem;
+    border: 0.125rem solid #2B2B2B;
+}
+#username:hover {
+    background-color: rgba(250,249,246, 0.7);
+    border: 0.125rem solid #FF9F00;
 }
 
+#username:focus {
+    background-color: #faf9f6;
+    border: 0.125rem solid #FF9F00;
+}
 .play {
     font-size: 1.5rem;
     color: #faf9f6;
@@ -106,7 +115,7 @@ h2 {
 }
 .button {
     color:#faf9f6;
-    padding:0.5rem;
+    padding:0.25rem;
     font-size: 1.25rem;
 }
 

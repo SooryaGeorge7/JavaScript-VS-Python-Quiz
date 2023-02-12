@@ -37,13 +37,21 @@ function validateMessage() {
     let randomI = Math.floor(Math.random() * (i+1));
     [questions[randomI], questions[i]] = [questions[i], questions[randomI]];
  }
- console.log(questions);
+ //console.log(questions);
+
+let m; 
+let slicedQuestions;
+ 
+m = Math.ceil(questions.length / 3);
+slicedQuestions = questions.slice(0, m);
+console.log(slicedQuestions[currentIndex]);
 
 //play game
+
 function playGame() {
     gamePage.style.display = "block";
     homePage.style.display = "none";
-    displayQuestions(questions[currentIndex]);
+    displayQuestions(slicedQuestions[currentIndex]);
     questionNumber.innerText = qNumber;
     score.innerText = userscore;
     questionsLeft.innerText= qLeft;
@@ -73,7 +81,7 @@ function displayQuestions(question) {
 function checkAnswer(event) {
     answerSelected = event.target;
     let selected = answerSelected.innerText;
-    let rightAnswer = questions[currentIndex].correct;
+    let rightAnswer = slicedQuestions[currentIndex].correct;
     
     if (selected === rightAnswer){
         answerSelected.style.background= "#226F54";
@@ -101,11 +109,11 @@ for (let i = 0; i < ansButton.length; i++) {
 
 
 function nextQuestion() {
-    if (currentIndex + 1 > questions.length) {
+    if (currentIndex + 1 > slicedQuestions.length) {
         gameOver();
         clearInterval(counting);
     }else {
-        displayQuestions(questions[currentIndex]);
+        displayQuestions(slicedQuestions[currentIndex]);
         
     }
 }

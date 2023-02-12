@@ -8,6 +8,7 @@ let questionArea = document.getElementById('questions');
 let python = document.getElementById('python');
 let javaScript = document.getElementById('javascript');
 let noTime = document.getElementById('no-time-left');
+let showScore = document.getElementById('show-score');
 
 //username validation 
 let usernameLength = "Please enter a name longer than 2 charectors";
@@ -120,4 +121,16 @@ function nextQuestion() {
 function gameOver() {
     gamePage.style.display = "none";
     gameoverPage.style.display = "block";
+    showScore()
+}
+
+let highScore;
+let doBetter;
+let failed;
+function showScore() {
+    
+    if (secsLeft <= 0) {
+        gameOver();
+        noTime.innerHTML = noTimeleft;
+    }
 }

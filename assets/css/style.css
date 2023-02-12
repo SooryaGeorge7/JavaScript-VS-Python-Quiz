@@ -55,9 +55,9 @@ h2 {
 
 #logo-text {
     
-    margin: 3.5rem;
+    margin: 1rem 2rem;
     top: 5rem;
-     text-align: center; 
+    text-align: center; 
     border-radius: 0.5rem;
     font-size: 1rem;
     color: #2B2B2B;
@@ -71,20 +71,23 @@ h2 {
 #home-page, #game-page, #gameover-area {
     
     background-color: rgba(250,249,246, 0.9);
-    margin: 3rem 2rem;
+    margin: 2rem;
     text-align: center;
     padding: 2rem;
     border-radius: 0.5rem;
     border: 0.25rem solid #FF9F00;
 }
 .username-div {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
     font-weight: bold;
     background-color: rgba(193,193,193,0.9);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
 }
 #username {
-    width: 11rem;
+    width: 9rem;
     height:2rem;
 }
 
@@ -104,6 +107,7 @@ h2 {
 .button {
     color:#faf9f6;
     padding:0.5rem;
+    font-size: 1.25rem;
 }
 
 #game-page, #gameover-area {

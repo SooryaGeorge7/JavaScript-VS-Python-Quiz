@@ -156,7 +156,8 @@ h2 {
 
 #questions {
     font-family: "noto serif",sans-serif;
-    color: #FF9F00;
+    color: #2B2B2B;
+    font-size: 1rem;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
 .answer-btn {
@@ -171,6 +172,7 @@ h2 {
     text-transform: uppercase;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    
 }
 .answer-btn button:hover {
     border: 0.25rem solid #2B2B2B;

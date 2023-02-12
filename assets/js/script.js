@@ -10,6 +10,13 @@ let javaScript = document.getElementById('javascript');
 let noTime = document.getElementById('no-time-left');
 let showScores = document.getElementById('show-score');
 
+let howToplay = document.getElementById('how-to-play');
+
+function howtoPlay(){
+    howToplay.style.display = "block";
+
+
+}
 //username validation 
 let usernameLength = "Please enter a name longer than 2 charectors";
 let checkSpace = "Please enter a name with no spaces";

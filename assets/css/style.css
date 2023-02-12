@@ -146,3 +146,6 @@ body {
     background-color: rgba(250,249, 246, 0.8);
     color:rgba(43, 43, 43, 0.7)
 }
+#how-to-play {
+    display:none
+}

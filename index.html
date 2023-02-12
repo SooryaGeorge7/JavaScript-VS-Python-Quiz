@@ -27,12 +27,16 @@
 
     <section id="home-page">
         <div>
-            <p><i class="fa-solid fa-magnifying-glass"></i>Are you a newbie to Javascript or Python? Test your knowledge with this simple quiz! <br>Start the game by simply enter an username and press Play! </p>
+            <p><i class="fa-solid fa-magnifying-glass"></i>Are you a newbie to Javascript 
+                or Python? Test your knowledge with this simple quiz!<br>
+                <a id="how" onclick="howtoPlay()"><i class="fa-regular fa-circle-question"></i></a>
+                <span id ="how-to-play">Start the game by simply entering an username and pressing Play! </span>
+             </p>
         </div>
         <div class="username-div">
             <label for="username">Enter Username</label><br>
             <input type="text" name ="username" id="username" required>
-            <div id="validation"></div>
+            <p id="validation"></p>
         </div>
 
         <button class="play" id="start-game" onclick="validateMessage()">

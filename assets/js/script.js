@@ -18,7 +18,7 @@ function howtoPlay(){
 
 }
 //username validation 
-let usernameLength = "Please enter a name longer than 2 charectors";
+let usernameLength = "*Please enter a name longer than 2 charectors*";
 let checkSpace = "Please enter a name with no spaces";
 function validateMessage() {
     if(userName.value.length <= parseInt(2)) {

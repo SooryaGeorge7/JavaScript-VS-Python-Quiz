@@ -50,11 +50,11 @@ h2 {
 #description {
     
     color: #2B2B2B;
-    text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;
+    /*text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;*/
 }
 
 #logo-text {
-    
+    border: 0.25rem solid #2B2B2B;
     margin: 1rem 2rem;
     top: 5rem;
     text-align: center; 
@@ -78,7 +78,7 @@ h2 {
     border: 0.25rem solid #FF9F00;
 }
 .username-div {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: bold;
     background-color: rgba(193,193,193,0.9);
@@ -99,6 +99,10 @@ h2 {
 #username:focus {
     background-color: #faf9f6;
     border: 0.125rem solid #FF9F00;
+}
+#validation {
+    font-size:0.75rem;
+    font-style:italic;
 }
 .play {
     font-size: 1.5rem;

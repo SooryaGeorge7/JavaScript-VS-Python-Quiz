@@ -48,7 +48,7 @@ h2 {
 }
 
 #description {
-    background-color: #faf9f6;
+    
     color: #2B2B2B;
     text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;
 }
@@ -70,16 +70,18 @@ h2 {
 
 #home-page, #game-page, #gameover-area {
     
-    background-color: rgba(193,193,193, 0.9);
+    background-color: rgba(250,249,246, 0.9);
     margin: 3rem 2rem;
     text-align: center;
     padding: 2rem;
     border-radius: 0.5rem;
+    border: 0.25rem solid #FF9F00;
 }
 .username-div {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: bold;
+    background-color: rgba(193,193,193,0.9);
 }
 #username {
     width: 11rem;
@@ -93,7 +95,7 @@ h2 {
     background-color: #FF9F00;
     border-radius: 0.5rem;
     border: 0.125rem solid #faf9f6;
-    border-style: 
+    margin-top: 1rem;
 }
 .play:hover {
     background-color:  rgba(255,159,0, 0.7);

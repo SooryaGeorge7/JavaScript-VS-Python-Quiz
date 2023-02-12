@@ -12,9 +12,13 @@ let showScores = document.getElementById('show-score');
 
 //username validation 
 let usernameLength = "Please enter a name longer than 2 charectors";
+let checkSpace = "Please enter a name with no spaces";
 function validateMessage() {
     if(userName.value.length <= parseInt(2)) {
         validationMessage.innerHTML = usernameLength;
+    }
+    else if (userName.value.indexOf(" ") >= 0) {
+        validationMessage.innerHTML = checkSpace;
     }
     else {
         playGame();

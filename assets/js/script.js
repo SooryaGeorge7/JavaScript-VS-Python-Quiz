@@ -32,6 +32,13 @@ function validateMessage() {
  let currentIndex = 0;
  let counting;
 
+ let i = questions.length;
+ while (--i > 0){
+    let randomI = Math.floor(Math.random() * (i+1));
+    [questions[randomI], questions[i]] = [questions[i], questions[randomI]];
+ }
+ console.log(questions);
+
 //play game
 function playGame() {
     gamePage.style.display = "block";

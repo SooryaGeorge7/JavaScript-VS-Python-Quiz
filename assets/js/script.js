@@ -8,7 +8,7 @@ let questionArea = document.getElementById('questions');
 let python = document.getElementById('python');
 let javaScript = document.getElementById('javascript');
 let noTime = document.getElementById('no-time-left');
-let showScore = document.getElementById('show-score');
+let showScores = document.getElementById('show-score');
 
 //username validation 
 let usernameLength = "Please enter a name longer than 2 charectors";
@@ -123,14 +123,23 @@ function gameOver() {
     gameoverPage.style.display = "block";
     showScore()
 }
-
-let highScore;
-let doBetter;
-let failed;
+let performance = document.getElementById('performance');
+let maxScore = "Congraturlations! You really know your ish!";
+let highScore = "Well done on a good score but there is still room for improvement";
+let doBetter = "You've just passed but you can definetly do better! ";
+let failed = "Oh no, someone needs to revise their notes!Try again? ";
 function showScore() {
-    
-    if (secsLeft <= 0) {
-        gameOver();
-        noTime.innerHTML = noTimeleft;
+    showScores.innerHTML = `Your Score: ${userscore}/10`;
+    if (userscore == 10) {
+        performance.innerHTML = maxScore;
+
+    }else if (userscore >= 7){
+        performance.innerHTML = highScore;
+
+    }else if (userscore < 7, userscore >= 5){
+        performance.innerHTML = doBetter;
+    }
+    else {
+        performance.innerHTML = failed;
     }
 }

@@ -124,7 +124,7 @@ function gameOver() {
     showScore()
 }
 let performance = document.getElementById('performance');
-let maxScore = "Congraturlations! You really know your ish!";
+let maxScore = "Congraturlations! You really know your stuff!";
 let highScore = "Well done on a good score but there is still room for improvement";
 let doBetter = "You've just passed but you can definetly do better! ";
 let failed = "Oh no, someone needs to revise their notes!Try again? ";

@@ -150,7 +150,8 @@ h2 {
     justify-content: space-between;
     margin-bottom: 1rem;
     background-color: rgba(193,193,193,0.9);
-    padding:0.125rem;
+    padding:0.25rem;
+    border-radius: 0.5rem;
 }
 .score-container p {
     margin:0.25rem;
@@ -176,7 +177,7 @@ h2 {
 }
 .answer-btn button {
     margin:0.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
     padding: 0.5rem;
     border-radius: 0.5rem;

@@ -208,3 +208,23 @@ h2 {
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
     border-radius: 0.5rem;
 }
+#show-score {
+    font-weight: bold;
+}
+
+#results {
+    background-color: rgba(250,249, 246, 0.8);
+}
+#playagain {
+    font-size: 1.2rem;
+    color: #faf9f6;
+    padding:0.5rem;
+    background-color: #FF9F00;
+    border-radius: 0.5rem;
+    border: 0.125rem solid #faf9f6;
+    margin-top: 1rem;
+}
+#playagain:hover {
+    background-color:  rgba(255,159,0, 0.7);
+    cursor: pointer
+}

@@ -198,3 +198,13 @@ h2 {
     color:#FF9F00;
 
 }
+.gameover {
+    font-size: 1rem;
+}
+#gameover-heading {
+    font-size: 1.25rem;
+    background-color: #FF9F00;
+    border: 0.25rem solid #2B2B2B;
+    text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
+    border-radius: 0.5rem;
+}

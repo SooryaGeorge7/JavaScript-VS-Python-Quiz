@@ -31,7 +31,7 @@ body {
     margin-top: 3rem;
     font-family: "noto serif",sans-serif;
     color: #faf9f6;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-shadow: 0 0 7px #FF9F00, 0 0 7px #FF9F00;
 }
 h2 {
@@ -132,7 +132,7 @@ h2 {
     font-size: 1.5rem;
     
     /* color: #faf9f6; */
-    margin: 5rem 4rem;
+    /*margin: 5rem 4rem;*/
     
 }
 /*#scores {
@@ -214,6 +214,7 @@ h2 {
 
 #results {
     background-color: rgba(250,249, 246, 0.8);
+    border-radius: 0.5rem;
 }
 #playagain {
     font-size: 1.2rem;

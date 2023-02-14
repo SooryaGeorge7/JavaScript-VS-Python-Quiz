@@ -15,7 +15,6 @@ let howToplay = document.getElementById('how-to-play');
 function howtoPlay(){
     howToplay.style.display = "block";
 
-
 }
 //username validation 
 let usernameLength = "*Please enter a name longer than 2 charectors*";
@@ -44,22 +43,6 @@ function validateMessage() {
  let currentIndex = 0;
  let counting;
 
- let i = questions.length;
- while (--i > 0){
-    let randomI = Math.floor(Math.random() * (i+1));
-    [questions[randomI], questions[i]] = [questions[i], questions[randomI]];
- }
- //console.log(questions);
-
-let m; 
-let slicedQuestions;
- 
-m = Math.ceil(questions.length / 3);
-slicedQuestions = questions.slice(0, m);
-console.log(slicedQuestions[currentIndex]);
-
-//play game
-
 function playGame() {
     gamePage.style.display = "block";
     homePage.style.display = "none";
@@ -71,22 +54,10 @@ function playGame() {
     countDown();
 }
 
-let secsLeft = 40;
-
-let noTimeleft = "Sorry, You've run out of time!";
-function countDown() {
-    timer.innerText = --secsLeft;
-    if (secsLeft <= 0) {
-        gameOver();
-        noTime.innerHTML = noTimeleft;
-    }
-}
-
 function displayQuestions(question) {
     questionArea.innerText = question.question;
     python.innerText = question.choice[0];
     javaScript.innerText = question.choice[1];
-    
     
 }
 
@@ -129,6 +100,37 @@ function nextQuestion() {
         
     }
 }
+
+ let i = questions.length;
+ while (--i > 0){
+    let randomI = Math.floor(Math.random() * (i+1));
+    [questions[randomI], questions[i]] = [questions[i], questions[randomI]];
+ }
+ //console.log(questions);
+
+let m; 
+let slicedQuestions;
+ 
+m = Math.ceil(questions.length / 3);
+slicedQuestions = questions.slice(0, m);
+console.log(slicedQuestions[currentIndex]);
+
+//play game
+
+
+
+let secsLeft = 40;
+
+let noTimeleft = "Sorry, You've run out of time!";
+function countDown() {
+    timer.innerText = --secsLeft;
+    if (secsLeft <= 0) {
+        gameOver();
+        noTime.innerHTML = noTimeleft;
+    }
+}
+
+
 function gameOver() {
     gamePage.style.display = "none";
     gameoverPage.style.display = "block";
@@ -136,10 +138,6 @@ function gameOver() {
 }
 
 let performance = document.getElementById('performance');
-//let maxScore = `Congraturlations! You really know your stuff ${userName.value}!`;
-//let highScore = `Well done ${userName.value}! This is a good score but there is still room for improvement`;
-//let doBetter = `${userName.value}, You've just passed but you can definetly do better! `;
-//let failed = `Oh no, someone needs to revise their notes!Try again ${userName.value}? `;
 function showScore() {
     showScores.innerHTML = `Your Score: ${userscore}/10`;
     if (userscore == 10) {

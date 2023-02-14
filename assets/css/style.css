@@ -23,9 +23,8 @@ body {
 }
 
 /* --------- Heading */
-
+/*Title througout game*/
 .quiz-heading {
-    
     text-align: center;
     /* top: 1rem; */
     margin-top: 3rem;
@@ -33,24 +32,6 @@ body {
     color: #faf9f6;
     font-size: 2rem;
     text-shadow: 0 0 5px #FF9F00, 0 0 5px #FF9F00;
-}
-h2 {
-    font-family: "noto serif",sans-serif;
-}
-
-/*.logo-image {
-    
-    width: 6rem;
-    left: 0.125rem;
-}*/
-#home-question {
-    font-size: 1rem;
-}
-
-#description {
-    
-    color: #2B2B2B;
-    /*text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;*/
 }
 
 #logo-text {
@@ -68,6 +49,15 @@ h2 {
     font-weight: bold;
 }
 
+h2 {
+    font-family: "noto serif",sans-serif;
+}
+
+/*.logo-image {
+    
+    width: 6rem;
+    left: 0.125rem;
+}*/
 #home-page, #game-page, #gameover-area {
     
     background-color: rgba(250,249,246, 0.7);
@@ -76,6 +66,24 @@ h2 {
     padding: 1rem;
     border-radius: 0.5rem;
     border: 0.25rem solid #FF9F00;
+}
+
+#description { 
+    color: #2B2B2B;
+    /*text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;*/
+}
+
+#home-question {
+    font-size: 1rem;
+}
+
+#how-to-play {
+    display:none
+}
+
+#home-page a:hover {
+    color:#FF9F00;
+
 }
 .username-div {
     font-size: 1rem;
@@ -124,18 +132,7 @@ h2 {
     font-size: 1.25rem;
 }
 
-#game-page, #gameover-area {
-    display: none;
-}
 
-#gameover-area {
-    text-align: center;
-    font-size: 1.5rem;
-    
-    /* color: #faf9f6; */
-    /*margin: 5rem 4rem;*/
-    
-}
 /*#scores {
     color: #faf9f6;
     text-transform: uppercase;
@@ -164,7 +161,7 @@ h2 {
     /*border-bottom: 0.125rem solid #faf9f6;/
     /*border-radius: 0.5rem;*/
     width:45%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     
 }
 
@@ -194,13 +191,18 @@ h2 {
     background-color: rgba(250,249, 246, 0.8);
     color:rgba(43, 43, 43, 0.7)
 }
-#how-to-play {
-    display:none
+
+#game-page, #gameover-area {
+    display: none;
 }
 
-#home-page a:hover {
-    color:#FF9F00;
-
+#gameover-area {
+    text-align: center;
+    font-size: 1.5rem;
+    
+    /* color: #faf9f6; */
+    /*margin: 5rem 4rem;*/
+    
 }
 .gameover {
     font-size: 1rem;

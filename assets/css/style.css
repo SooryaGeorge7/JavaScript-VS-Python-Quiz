@@ -149,19 +149,22 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 1rem;
-    background-color: rgba(193,193,193,0.9);
-    padding:0.25rem;
+    /*background-color: rgba(193,193,193,0.9);*/
+    border: 0.125rem solid #faf9f6;
+    background-color: #FF9F00;
+    /*padding:0.25rem;*/
     border-radius: 0.5rem;
 }
 .score-container p {
     margin:0.25rem;
     background-color: #FF9F00;
     color: #faf9f6;
-    padding:0.25rem;
-    border: 0.125rem solid #faf9f6;
-    border-radius: 0.5rem;
+    /*padding:0.25rem;*/
+    /*border-bottom: 0.125rem solid #faf9f6;/
+    /*border-radius: 0.5rem;*/
     width:45%;
     font-size: 0.8rem;
+    
 }
 
 #questions {

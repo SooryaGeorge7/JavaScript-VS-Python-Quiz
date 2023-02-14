@@ -5,7 +5,7 @@ const questions = [
         correct:"JAVASCRIPT"
     },
     {
-        question:"In which programming language is the word true a boolean value?",
+        question:"In which programming language is the word 'true' a boolean value?",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
@@ -15,7 +15,7 @@ const questions = [
         correct:"PYTHON"
     },
     {
-        question:"Comments in code editor starts with #",
+        question:"Comments in code editor starts with #.",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct: "PYTHON"
     },
@@ -25,7 +25,7 @@ const questions = [
         correct: "PYTHON"
     },
     {
-        question:"The datatype undefined represents a variable without a value in:",
+        question:"The datatype 'undefined' represents a variable without a value in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct: "JAVASCRIPT"
     },
@@ -35,17 +35,17 @@ const questions = [
         correct:"JAVASCRIPT"
     },
     {
-        question:"The logical operator OR has the syntax || in:",
+        question:"The logical operator 'OR' has the syntax '||' in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
     {
-        question:"The operator type() will return the type of data being operated on in:",
+        question:"The operator 'type()' will return the type of data being operated on in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct: "PYTHON"
     },
     {
-        question:"The variable item is defined as item='' in:",
+        question:"The variable item is defined as 'item = ' in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"PYTHON"
     },
@@ -60,7 +60,7 @@ const questions = [
         correct:"PYTHON"
     },
     {
-        question:" :/colons  are more frequently used in :",
+        question:" ':' or 'colons' are more frequently used in :",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"PYTHON"
     },
@@ -70,37 +70,37 @@ const questions = [
         correct:"JAVASCRIPT"
     },
     {
-        question:"if: elif: else: is the conditional logic syntax for",
+        question:"if: elif: else: is the conditional logic syntax for:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"PYTHON"
     },
     {
-        question:" {}/curly brackets are used to create objects in:",
+        question:"'{}' or 'curly brackets' are used to create objects in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
     {
-        question:"ternary conditional statement let var = condition ? trueResult:falseResult",
+        question:"Ternary conditional statement let var = condition ? trueResult:falseResult",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
     {
-        question:"in which programing language will incorrect indentation not allow the code to run:",
+        question:"In which programing language will incorrect indentation not allow the code to run?",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"PYTHON"
     },
     {
-        question:"“else if” conditional syntax is used in ",
+        question:"'else if' conditional syntax is used in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
     {
-        question:"(Let i = 1; i <= 10; i++) is seen in ",
+        question:"(Let i = 1; i <= 10; i++) is seen in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
     {
-        question:"The statement pass Is used to skip the current code block in",
+        question:"The statement 'pass' Is used to skip the current code block in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"PYTHON"
     },
@@ -110,17 +110,17 @@ const questions = [
         correct:"JAVASCRIPT"
     },
     {
-        question:"in which language do you use keyword def to name a function",
+        question:"In which language do you use keyword 'def' to name a function?",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"PYTHON"
     },
     {
-        question:"keywords let , var and const are used to define variables in",
+        question:"Keywords let , var and const are used to define variables in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"JAVASCRIPT"
     },
     {
-        question:"A multi line comment is wrapped in  “””   comment goes here “”” in",
+        question:"A multi line comment is wrapped in  “””   comment goes here “”” in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"PYTHON"
     },
@@ -130,7 +130,7 @@ const questions = [
         correct:"JAVASCRIPT"
     },
     {
-        question:"The built in function help() is used to access docstrings on the command line in",
+        question:"The built in function help() is used to access docstrings on the command line in:",
         choice: ["PYTHON", "JAVASCRIPT"],
         correct:"PYTHON"
     },

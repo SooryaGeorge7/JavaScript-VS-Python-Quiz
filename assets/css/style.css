@@ -73,7 +73,7 @@ h2 {
     background-color: rgba(250,249,246, 0.9);
     margin: 2rem;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     border: 0.25rem solid #FF9F00;
 }
@@ -161,7 +161,7 @@ h2 {
     border: 0.125rem solid #faf9f6;
     border-radius: 0.5rem;
     width:45%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 #questions {

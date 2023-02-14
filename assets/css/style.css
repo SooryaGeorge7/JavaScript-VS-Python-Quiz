@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("../images/background-js-vs-p-quiz.webp");
+    background-image: url("../images/backgroundpic-quiz.webp");
     background-repeat: no-repeat;
     
     /* background-size: cover; */
@@ -32,7 +32,7 @@ body {
     font-family: "noto serif",sans-serif;
     color: #faf9f6;
     font-size: 2rem;
-    text-shadow: 0 0 7px #FF9F00, 0 0 7px #FF9F00;
+    text-shadow: 0 0 5px #FF9F00, 0 0 5px #FF9F00;
 }
 h2 {
     font-family: "noto serif",sans-serif;
@@ -64,13 +64,13 @@ h2 {
     padding: 0.5rem;
     text-transform: uppercase;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
-    background-color: rgba(255,159,0, 0.7);
+    background-color: rgba(255,159,0, 0.8);
     font-weight: bold;
 }
 
 #home-page, #game-page, #gameover-area {
     
-    background-color: rgba(250,249,246, 0.9);
+    background-color: rgba(250,249,246, 0.7);
     margin: 2rem;
     text-align: center;
     padding: 1rem;
@@ -81,10 +81,11 @@ h2 {
     font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: bold;
-    background-color: rgba(193,193,193,0.9);
+    background-color: rgba(193,193,193);
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
+    border: 0.125rem solid #2B2B2B;
 }
 #username {
     width: 9rem;

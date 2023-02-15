@@ -90,10 +90,10 @@ function changeColor(event) {
 }
 let ansButton = document.getElementsByClassName('answer');
 for (let i = 0; i < ansButton.length; i++) {
-    ansButton[i].addEventListener('mousedown', checkAnswer);
-    ansButton[i].addEventListener('touchstart', checkAnswer);
-    ansButton[i].addEventListener('mouseup', changeColor);
-    ansButton[i].addEventListener('touchend', changeColor);
+    ansButton[i].addEventListener('pointerdown', checkAnswer);
+    
+    ansButton[i].addEventListener('pointerup', changeColor);
+    
 }
 
 

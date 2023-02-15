@@ -14,6 +14,7 @@ let howToplay = document.getElementById('how-to-play');
 
 function howtoPlay(){
     howToplay.style.display = "block";
+    homePage.style.display = "none";
 
 }
 //username validation 

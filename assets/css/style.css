@@ -191,7 +191,7 @@ h2 {
     
 }
 .answer-btn button:hover {
-    border: 0.25rem solid #2B2B2B;
+    border: 0.25rem solid rgba(43, 43, 43, 0.7);
     background-color: rgba(250,249, 246, 0.8);
     color:rgba(43, 43, 43, 0.7)
 }

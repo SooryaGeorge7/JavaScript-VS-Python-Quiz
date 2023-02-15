@@ -69,12 +69,12 @@ function checkAnswer(event) {
     
     if (selected === rightAnswer){
         answerSelected.style.background= "#226F54";
-        gamepage.style.border = "0.25rem solid #226F54";
+        gamepage.style.border = "0.5rem solid #226F54";
         score.innerText = ++userscore;
         
     } else {
         answerSelected.style.background= "#E04C4C";
-        gamepage.style.border = "0.25rem solid #E04C4C";
+        gamepage.style.border = "0.5rem solid #E04C4C";
     }
     
 
@@ -82,7 +82,7 @@ function checkAnswer(event) {
 function changeColor(event) {
     answerRelease = event.target;
     answerRelease.style.background = "#FAF9F6";
-    gamepage.style.border = "0.25rem solid #FAF9F6";
+    gamepage.style.border = "0";
     currentIndex++;
     questionsLeft.innerText= --qLeft;
     questionNumber.innerText = ++qNumber;

@@ -35,7 +35,7 @@ body {
 }
 
 #logo-text {
-    border: 0.25rem solid #2B2B2B;
+    /*border: 0.25rem solid #2B2B2B;*/
     margin: 1rem 2rem;
     top: 5rem;
     text-align: center; 
@@ -46,6 +46,7 @@ body {
     text-transform: uppercase;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
     background-color: rgba(255,159,0, 0.8);
+    background: linear-gradient(to right, rgba(250,249,246, 0.9), rgba(255,159,0,1));
     font-weight: bold;
 }
 
@@ -65,7 +66,7 @@ h2 {
     text-align: center;
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 0.25rem solid #FF9F00;
+    
 }
 
 #description { 
@@ -89,7 +90,8 @@ h2 {
     font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: bold;
-    background-color: rgba(193,193,193);
+    background: linear-gradient(to right, rgba(250,249,246, 0.7), rgba(255,159,0,1));
+    
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
@@ -121,10 +123,11 @@ h2 {
     border-radius: 0.5rem;
     border: 0.125rem solid #faf9f6;
     margin-top: 1rem;
+    border-style: outset;
 }
 .play:hover {
     background-color:  rgba(255,159,0, 0.7);
-    cursor: pointer
+    cursor: pointer;
 }
 .button {
     color:#faf9f6;
@@ -148,14 +151,15 @@ h2 {
     justify-content: space-between;
     margin-bottom: 1rem;
     /*background-color: rgba(193,193,193,0.9);*/
-    border: 0.125rem solid #faf9f6;
-    background-color: #FF9F00;
+    /*border: 0.125rem solid #faf9f6;*/
+    /*background-color: #FF9F00;*/
+    background: linear-gradient(to right, rgba(255,159,0,0.3), rgba(255,159,0,1));
     /*padding:0.25rem;*/
     border-radius: 0.5rem;
 }
 .score-container p {
     margin:0.25rem;
-    background-color: #FF9F00;
+    
     color: #faf9f6;
     /*padding:0.25rem;*/
     /*border-bottom: 0.125rem solid #faf9f6;/
@@ -209,7 +213,7 @@ h2 {
 }
 #gameover-heading {
     font-size: 1.25rem;
-    background-color: #FF9F00;
+    background: linear-gradient(to right, rgba(255,159,0,0.3), rgba(255,159,0,1));
     border: 0.25rem solid #2B2B2B;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
     border-radius: 0.5rem;
@@ -230,6 +234,7 @@ h2 {
     border-radius: 0.5rem;
     border: 0.125rem solid #faf9f6;
     margin-top: 1rem;
+    border-style: outset;
 }
 #playagain:hover {
     background-color:  rgba(255,159,0, 0.7);

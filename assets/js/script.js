@@ -70,6 +70,7 @@ function checkAnswer(event) {
     if (selected === rightAnswer){
         answerSelected.style.background= "#226F54";
         gamepage.style.border = "0.5rem solid #226F54";
+        
         score.innerText = ++userscore;
         
     } else {

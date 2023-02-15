@@ -59,7 +59,7 @@ h2 {
     width: 6rem;
     left: 0.125rem;
 }*/
-#home-page, #game-page, #gameover-area {
+#home-page, #gameover-area {
     
     background-color: rgba(250,249,246, 0.7);
     margin: 2rem;
@@ -69,6 +69,13 @@ h2 {
     
 }
 
+#game-page {
+    background: linear-gradient(to right, rgba(255,159,0,0.3), rgba(255,159,0,1));
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
 #description { 
     color: #2B2B2B;
     /*text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;*/
@@ -153,19 +160,19 @@ h2 {
     /*background-color: rgba(193,193,193,0.9);*/
     /*border: 0.125rem solid #faf9f6;*/
     /*background-color: #FF9F00;*/
-    background: linear-gradient(to right, rgba(255,159,0,0.3), rgba(255,159,0,1));
+    
     /*padding:0.25rem;*/
     border-radius: 0.5rem;
 }
 .score-container p {
-    margin:0.25rem;
+    
     
     color: #faf9f6;
     /*padding:0.25rem;*/
     /*border-bottom: 0.125rem solid #faf9f6;/
     /*border-radius: 0.5rem;*/
     width:45%;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     
 }
 

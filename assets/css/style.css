@@ -59,7 +59,7 @@ h2 {
     width: 6rem;
     left: 0.125rem;
 }*/
-#home-page, #gameover-area {
+#home-page, #gameover-area, #how-to-play {
     
     background-color: rgba(250,249,246, 0.7);
     margin: 2rem;
@@ -68,6 +68,7 @@ h2 {
     border-radius: 0.5rem;
     
 }
+
 
 #game-page {
     background: linear-gradient(to right, rgba(255,159,0,0.3), rgba(255,159,0,1));
@@ -88,6 +89,7 @@ h2 {
 #how-to-play {
     display:none
 }
+
 
 #home-page a:hover {
     color:#FF9F00;
@@ -122,7 +124,7 @@ h2 {
     font-size:0.75rem;
     font-style:italic;
 }
-.play {
+.play, #go-back {
     font-size: 1.5rem;
     color: #faf9f6;
     padding:0.5rem;
@@ -132,7 +134,7 @@ h2 {
     margin-top: 1rem;
     border-style: outset;
 }
-.play:hover {
+.play:hover, #go-back:hover {
     background-color:  rgba(255,159,0, 0.7);
     cursor: pointer;
 }

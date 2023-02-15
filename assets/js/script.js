@@ -92,7 +92,7 @@ function changeColor(event) {
 let ansButton = document.getElementsByClassName('answer');
 for (let i = 0; i < ansButton.length; i++) {
     ansButton[i].addEventListener('pointerdown', checkAnswer);
-    
+    ansButton[i].addEventListener('pointercancel', changeColor);
     ansButton[i].addEventListener('pointerup', changeColor);
     
 }

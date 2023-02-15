@@ -172,6 +172,8 @@ h2 {
     
     
     color: #faf9f6;
+    text-decoration: underline;
+    text-transform: uppercase;
     /*padding:0.25rem;*/
     /*border-bottom: 0.125rem solid #faf9f6;/
     /*border-radius: 0.5rem;*/

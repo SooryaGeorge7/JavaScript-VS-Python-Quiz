@@ -31,11 +31,11 @@ body {
     font-family: "noto serif",sans-serif;
     color: #faf9f6;
     font-size: 2rem;
-    text-shadow: 0 0 5px #FF9F00, 0 0 5px #FF9F00;
+    /*text-shadow: 0 0 5px #FF9F00, 0 0 5px #FF9F00;*/
 }
 
-#logo-text {
-    /*border: 0.25rem solid #2B2B2B;*/
+/*#logo-text {
+    border: 0.25rem solid #2B2B2B;
     margin: 1rem 2rem;
     top: 5rem;
     text-align: center; 
@@ -48,7 +48,7 @@ body {
     background-color: rgba(255,159,0, 0.8);
     background: linear-gradient(to right, rgba(250,249,246, 0.9), rgba(255,159,0,1));
     font-weight: bold;
-}
+}*/
 
 h2 {
     font-family: "noto serif",sans-serif;
@@ -61,7 +61,7 @@ h2 {
 }*/
 #home-page, #gameover-area, #how-to-play {
     
-    background-color: rgba(250,249,246, 0.7);
+    background-color: rgba(250,249,246, 0.8);
     margin: 2rem;
     text-align: center;
     padding: 1rem;
@@ -79,6 +79,7 @@ h2 {
 }
 #description { 
     color: #2B2B2B;
+    margin-bottom: 2rem;
     /*text-shadow: 0 0 3px #FF9F00, 0 0 5px #FF9F00;*/
 }
 
@@ -98,13 +99,14 @@ h2 {
 .username-div {
     font-size: 1rem;
     margin-bottom: 2rem;
+    
     font-weight: bold;
     background: linear-gradient(to right, rgba(250,249,246, 0.7), rgba(255,159,0,1));
     
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
-    border: 0.125rem solid #2B2B2B;
+    
 }
 #username {
     width: 9rem;
@@ -223,7 +225,7 @@ h2 {
 #gameover-heading {
     font-size: 1.25rem;
     background: linear-gradient(to right, rgba(255,159,0,0.3), rgba(255,159,0,1));
-    border: 0.25rem solid #2B2B2B;
+    
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
     border-radius: 0.5rem;
 }

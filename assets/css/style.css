@@ -71,7 +71,7 @@ h2 {
 
 
 #game-page {
-    background: linear-gradient(to right, rgba(255,159,0,0.3), rgba(255,159,0,1));
+    background: radial-gradient(  rgba(255,159,0,5),rgba(255,159,0,0.1));
     margin: 2rem;
     text-align: center;
     padding: 1rem;
@@ -169,8 +169,6 @@ h2 {
     border-radius: 0.5rem;
 }
 .score-container p {
-    
-    
     color: #faf9f6;
     padding:0.25rem;
     text-transform: uppercase;
@@ -186,7 +184,8 @@ h2 {
     font-family: "noto serif",sans-serif;
     color: #2B2B2B;
     font-size: 1rem;
-    text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
+    font-weight: bold;
+    
 }
 .answer-btn {
     display:flex;

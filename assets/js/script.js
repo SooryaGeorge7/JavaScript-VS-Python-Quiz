@@ -74,11 +74,12 @@ function checkAnswer(event) {
         setTimeout(function(){
             answerSelected.style.background = "#faf9f6";
             nextQuestion();
+            score.innerText = ++userscore;
+            currentIndex++;
+            questionsLeft.innerText= --qLeft;
+            questionNumber.innerText = ++qNumber;
        }, 1000);
-        score.innerText = ++userscore;
-        currentIndex++;
-        questionsLeft.innerText= --qLeft;
-        questionNumber.innerText = ++qNumber;
+        
         //nextQuestion();
         
     } else {
@@ -87,10 +88,11 @@ function checkAnswer(event) {
         setTimeout(function(){
             answerSelected.style.background = "#faf9f6";
             nextQuestion();
+            currentIndex++;
+            questionsLeft.innerText= --qLeft;
+            questionNumber.innerText = ++qNumber;
        }, 1000);
-       currentIndex++;
-       questionsLeft.innerText= --qLeft;
-       questionNumber.innerText = ++qNumber;
+       
        //nextQuestion();
     }
     

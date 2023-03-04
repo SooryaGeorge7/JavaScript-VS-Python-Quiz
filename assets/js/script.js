@@ -71,47 +71,49 @@ function checkAnswer(event) {
     if (selected === rightAnswer){
         answerSelected.style.background= "#226F54";
         //gamepage.style.border = "0.5rem solid #226F54";
-        setTimeout(function(){
-            answerSelected.style.background = "#faf9f6";
+        //setTimeout(function(){
+        //    answerSelected.style.background = "#faf9f6";
             nextQuestion();
             score.innerText = ++userscore;
             currentIndex++;
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
-       }, 1000);
+       //}, 1000);
         
         //nextQuestion();
         
     } else {
         answerSelected.style.background= "#E04C4C";
         //gamepage.style.border = "0.5rem solid #E04C4C";
-        setTimeout(function(){
-            answerSelected.style.background = "#faf9f6";
+        //setTimeout(function(){
+        //    answerSelected.style.background = "#faf9f6";
             nextQuestion();
             currentIndex++;
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
-       }, 1000);
+       //}, 1000);
        
        //nextQuestion();
     }
     
 
 }
-//function changeColor(event) {
-   // answerRelease = event.target;
-   // answerRelease.style.background = "#FAF9F6";
-   // gamepage.style.border = "0";
-   // currentIndex++;
+function changeColor(event) {
+    answerRelease = event.target;
+    answerRelease.style.background = "#FAF9F6";
+    gamepage.style.border = "0";
+    //currentIndex++;
     //questionsLeft.innerText= --qLeft;
     //questionNumber.innerText = ++qNumber;
-    //nextQuestion();
-//}
+    nextQuestion();
+}
 let ansButton = document.getElementsByClassName('answer');
 for (let i = 0; i < ansButton.length; i++) {
-    ansButton[i].addEventListener('click', checkAnswer);
-    //ansButton[i].addEventListener('pointercancel', changeColor);
-    //ansButton[i].addEventListener('pointerup', changeColor);
+    //ansButton[i].addEventListener('click', checkAnswer);
+    ansButton[i].addEventListener('mousedown', checkAnswer);
+    ansButton[i].addEventListener('mouseup', changeColor);
+    ansButton[i].addEventListener('touchstart', checkAnswer);
+    ansButton[i].addEventListener('touchend', changeColor);
     
 }
 
